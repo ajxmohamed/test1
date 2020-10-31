@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  width: 90%;
+  height: 5vh;
+  margin: auto;
+}
+
+body {
+  font-family: Verdana;
+}
+
+.hover1,
+.hover2,
+.hover3,
+.hover4,
+.hover5,
+.hover6,
+.hover7 {
+  margin: auto;
+  list-style: none;
+  float: right;
+  padding-right: 88px;
+  padding: 3.5px;
+  padding-top: 15px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  padding-top: 5px;
+}
+
+a {
+  transition: all 1s;
+}
+
+a:hover {
+  color: red;
+}
+
+.presentation {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+
+.introduction {
+  flex: 1;
+}
+
+.intro-text h1 {
+  font-size: 44px;
+  font-weight: 500;
+  background: linear-gradient(to right, #494969, #6f6f89);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro-text p {
+  margin-top: 5px;
+  font-size: 22px;
+  color: #585772;
+}
+
+.cta {
+  padding: 50px 0px 0px 0px;
+}
+
+.check-select {
+  border: 2px solid pink;
+  background: transparent;
+  color: pink;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.check-price {
+  background: pink;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  border: none solid;
+  color: white;
+  margin: auto;
+  margin: 30px 0px 0px 30px;
+}
+
+.cover {
+  flex: 1;
+  filter: drop-shadow(0px 5px 3px black);
+  animation: drop 1.5s ease;
+}
+
+.cover img {
+  height: 60vh;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
